@@ -42,6 +42,7 @@ import javax.swing.JFrame;
  * About dialog of the Anagram Game application.
  */
 public class About extends JDialog {
+	
 
     /** Creates new form About */
     public About(JFrame parent) {
@@ -80,7 +81,7 @@ public class About extends JDialog {
         copyrightTextArea.setEditable(false);
         copyrightTextArea.setLineWrap(true);
         copyrightTextArea.setRows(8);
-        copyrightTextArea.setText("Anagrams\n\nCopyright (c) 2003  Irritable Enterprises, Inc.");
+        copyrightTextArea.setText("チームＡ　深美茉莉香、佐藤可奈子、矢沼香菜");
         copyrightTextArea.setWrapStyleWord(true);
         copyrightTextArea.setBorder(null);
         copyrightTextArea.setFocusable(false);
